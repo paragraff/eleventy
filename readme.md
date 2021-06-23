@@ -1,0 +1,1 @@
+This is the project from [this course](https://piccalil.li/course/learn-eleventy-from-scratch/)
