@@ -7,6 +7,8 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
 module.exports = config => {
   config.addPassthroughCopy('./src/images/');
+  // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
+  config.setUseGitIgnore(false);
 
   // Add filters
   config.addFilter('dateFilter', dateFilter);
